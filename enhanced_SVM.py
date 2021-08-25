@@ -1,3 +1,4 @@
+import numpy as np
 class enhanced_svc:
   def __init__(self,  C=1.0, learning_rate=1.0 , batch_size=32):
     self.C = C
